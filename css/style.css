@@ -1,0 +1,57 @@
+body{
+font-family: 'Lato', Calibri, Arial, sans-serif;
+font-size: 14px;
+}
+.icon{width:70px;height:72px;background:url('../img/twitter.png') center no-repeat;display:inline-block;vertical-align:middle;}
+.wrapper{
+width:900px;
+min-height:40px;
+margin:0 auto;
+text-align:center;
+}
+#login,#submit,#try{
+height: 38px;
+cursor: pointer;
+line-height: 38px;
+text-align: center;
+font-weight: bold;
+background: #34a5cf;
+background: -moz-linear-gradient(#34a5cf, #2a8ac4);
+background: -ms-linear-gradient(#34a5cf, #2a8ac4);
+background: -o-linear-gradient(#34a5cf, #2a8ac4);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#34a5cf), to(#2a8ac4));
+background: -webkit-linear-gradient(#34a5cf, #2a8ac4);
+background: linear-gradient(#34a5cf, #2a8ac4);
+box-shadow: inset 0 1px rgba(255,255,255,0.3);
+-webkit-box-shadow: inset 0 1px rgba(255,255,255,0.3);
+-moz-box-shadow: inset 0 1px rgba(255,255,255,0.3);
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border: 1px solid #2b8bc7;
+color: #ffffff;
+text-shadow: 0 -1px rgba(0,0,0,0.3);
+}
+
+#login:hover,#submit:hover,#try:hover{
+box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 20px 40px rgba(255,255,255,0.15);
+-webkit-box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 20px 40px rgba(255,255,255,0.15);
+-moz-box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 20px 40px rgba(255,255,255,0.15);
+}
+
+input[type=text] {
+width:300px;
+font-size: 14px;
+font-weight: 400;
+text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+padding: 10px ;
+border: none;
+box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 3px 2px rgba(0,0,0,0.1);
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 3px 2px rgba(0,0,0,0.1);
+-moz-box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 3px 2px rgba(0,0,0,0.1);
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+background: #f9f9f9;
+color: #777;
+}
